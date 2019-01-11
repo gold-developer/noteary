@@ -1,0 +1,87 @@
+.login-signup {
+  margin: 0 auto;
+  text-align: center;
+  background-image: image-url("splash-background.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+.splash-items {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 320px;
+  width: 600px;
+  margin: 10% auto;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(125, 125, 125, 0.80);
+  transition: all .1s ease-in-out;
+}
+
+.splash-items:hover {
+  background-color: rgb(110, 110, 110);
+}
+
+
+.splash-logo {
+  height: 320px;
+  width: 260px;
+  background-image: image-url("noteary-splash-logo.png");
+  background-repeat: no-repeat;
+  transition: all .1s ease-in-out;
+}
+
+.splash-items:hover .splash-logo {
+  transform: scale(1.03);
+}
+
+.phrase1 {
+  color: #2dbe60;
+  font-size: 18px;
+  font-family: 'Varela Round';
+  font-weight: bold;
+}
+
+.phrase2 {
+  color: #2dbe60;
+  font-size: 35px;
+  font-family: 'Varela Round';
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.splash-buttons > button  {
+  margin: 10px;
+  border-radius: 11px;
+  font-family: 'Varela Round';
+  color: #ffffff;
+  width: 150px;
+  height: 25px;
+  font-size: 16px;
+  background: #2dbe60;
+  padding: 5px 40px 5px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-style: none;
+  transition: all .1s ease-in-out;
+}
+
+.splash-buttons > button:hover {
+  background: #1ba34b;
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.splash-buttons {
+  margin-top: 30px;
+  width: 320px;
+}
+
+.session-errors{
+
+}

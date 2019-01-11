@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= favicon_link_tag 'favicon.ico' %>
+  <title>NoteAry</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+  <script type="text/javascript">
+    window.notearyAssets = {
+      background: "<%= image_url("splash-background.jpg") %>",
+      addNoteClicked: "<%= image_url("add-note-clicked.png") %>",
+      addNoteUnclicked: "<%= image_url("add-note-unclicked.png") %>",
+      notesClicked: "<%= image_url("notes-clicked.png") %>",
+      notesUnclicked: "<%= image_url("notes-unclicked.png") %>",
+      notebooksClicked: "<%= image_url("notebooks-clicked.png") %>",
+      notebooksUnclicked: "<%= image_url("notebooks-unclicked.png") %>",
+      tagsClicked: "<%= image_url("tags-clicked.png") %>",
+      tagsUnclicked: "<%= image_url("tags-unclicked.png") %>",
+      sidebarLogo: "<%= image_url("sidebar-logo.png") %>",
+      deleteNote: "<%= image_url("delete-note.png") %>",
+      deleteNoteClicked: "<%= image_url("delete-note-clicked.png") %>",
+      deleteNoteUnclicked: "<%= image_url("delete-note-unclicked.png") %>",
+      logoutClicked: "<%= image_url("logout-clicked.png") %>",
+      logoutUnclicked: "<%= image_url("logout-unclicked.png") %>",
+      loadingNotebook: "<%= image_url("notebook.png") %>",
+      saveFileClicked: "<%= image_url("save-file-clicked.png") %>",
+      saveFileUnclicked: "<%= image_url("save-file-unclicked.png") %>",
+      closeClicked: "<%= image_url("close-clicked.png") %>",
+      closeUnclicked: "<%= image_url("close-unclicked.png") %>",
+      editClicked: "<%= image_url("edit-clicked.png") %>",
+      editUnclicked: "<%= image_url("edit-unclicked.png") %>",
+      deleteToolClicked: "<%= image_url("delete-toolbar-clicked.png") %>",
+      deleteToolUnclicked: "<%= image_url("delete-toolbar-unclicked.png") %>",
+      notebooksToolClicked: "<%= image_url("notebooks-toolbar-clicked.png") %>",
+      notebooksToolUnclicked: "<%= image_url("notebooks-toolbar-unclicked.png") %>",
+      tagsToolClicked: "<%= image_url("tags-toolbar-clicked.png") %>",
+      tagsToolUnclicked: "<%= image_url("tags-toolbar-unclicked.png") %>",
+      notearyLogo: "<%= image_url("noteary-splash-logo.png") %>",
+      splashLogo: "<%= image_url("splash-logo.png") %>",
+      favicon: "<%= image_url("favicon.ico") %>"
+    }
+  </script>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

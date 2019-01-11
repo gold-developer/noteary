@@ -1,0 +1,213 @@
+.sidebar-container {
+  flex-shrink: 0;
+  background: #ededed;
+  width: 70px;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-container > div {
+  margin-bottom: 20px;
+  padding: 6px 0;
+  width: 42px;
+  height: 36px;
+}
+
+.sidebar-container > div > button {
+  margin-top: -6px;
+  height: 36px;
+  width: 100%;
+}
+
+.sidebar-logo {
+  margin: 20px auto 20px;
+  background-image: image-url("sidebar-logo.png");
+  background-size: 45px 45px;
+  background-repeat: no-repeat;
+  min-height: 45px;
+}
+
+.newnote-button-container {
+  margin: 0 auto;
+  display: block;
+  background-image: image-url("add-note-unclicked.png");
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+  transition: all .1s ease-in-out;
+  position: relative;
+}
+
+.newnote-button-container:hover {
+  background-image: image-url("add-note-clicked.png");
+  cursor: pointer;
+}
+
+.newnote-button-tooltip{
+  display: none;
+  font-family: 'Varela Round';
+  font-size: 12px;
+  position: absolute;
+  color: #fff;
+  background: grey;
+  padding: 5px;
+  white-space: nowrap;
+  border-radius: 5px;
+  top: 5px;
+  left: 40px;
+}
+
+.newnote-button-container:hover .newnote-button-tooltip{
+  display: block;
+}
+
+.notes-button-container {
+  margin: 0 auto;
+  display: block;
+  background-image: image-url("notes-unclicked.png");
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+  transition: all .1s ease-in-out;
+  position: relative;
+}
+
+.notes-button-container:hover {
+  background-image: image-url("notes-clicked.png");
+  cursor: pointer;
+}
+
+.notes-button-tooltip{
+  display: none;
+  font-family: 'Varela Round';
+  font-size: 12px;
+  position: absolute;
+  color: #fff;
+  background: grey;
+  padding: 5px;
+  white-space: nowrap;
+  border-radius: 5px;
+  top: 5px;
+  left: 40px;
+}
+
+.notes-button-container:hover .notes-button-tooltip{
+  display: block;
+}
+
+
+.notebooks-button-container {
+  margin: 0 auto;
+  display: block;
+  background-image: image-url("notebooks-unclicked.png");
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+  transition: all .1s ease-in-out;
+  position: relative;
+}
+
+.notebooks-button-container:hover {
+  background-image: image-url("notebooks-clicked.png");
+  cursor: pointer;
+}
+
+.notebooks-button-tooltip{
+  display: none;
+  font-family: 'Varela Round';
+  font-size: 12px;
+  position: absolute;
+  color: #fff;
+  background: grey;
+  padding: 5px;
+  white-space: nowrap;
+  border-radius: 5px;
+  top: 5px;
+  left: 40px;
+}
+
+.notebooks-button-container:hover .notebooks-button-tooltip{
+  display: block;
+}
+
+
+.tags-button-container {
+  margin: 0 auto;
+  display: block;
+  background-image: image-url("tags-unclicked.png");
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+  transition: all .1s ease-in-out;
+  position: relative;
+}
+
+.tags-button-container:hover {
+  background-image: image-url("tags-clicked.png");
+  cursor: pointer;
+}
+
+.tags-button-tooltip{
+  display: none;
+  font-family: 'Varela Round';
+  font-size: 12px;
+  position: absolute;
+  color: #fff;
+  background: grey;
+  padding: 5px;
+  white-space: nowrap;
+  border-radius: 5px;
+  top: 5px;
+  left: 40px;
+}
+
+.tags-button-container:hover .tags-button-tooltip{
+  display: block;
+}
+
+
+.logout-button-container {
+  display: block;
+  margin: 0 auto;
+  background-image: image-url("logout-unclicked.png");
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+  transition: all .1s ease-in-out;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.logout-button-container:hover {
+  background-image: image-url("logout-clicked.png");
+  cursor: pointer;
+}
+
+.logout-button-tooltip{
+  display: none;
+  font-family: 'Varela Round';
+  font-size: 12px;
+  position: absolute;
+  color: #fff;
+  background: grey;
+  padding: 5px;
+  white-space: nowrap;
+  border-radius: 5px;
+  top: 5px;
+  left: 40px;
+}
+
+.logout-button-container:hover .logout-button-tooltip{
+  display: block;
+}
+
+.avatar-image-container {
+  margin: 0 auto;
+  transition: all .1s ease-in-out;
+}
+
+.avatar-image-container:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.filler {
+  height: 100%;
+}
